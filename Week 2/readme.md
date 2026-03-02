@@ -7,7 +7,7 @@
 
 # 🚀 Professional Summary
 
-During Week 2 of the IT Technician Level 3 Bootcamp, I developed practical Business Intelligence skills using Tableau and Power BI.  
+During Week 2 of the IT Technician Level 3 Bootcamp, I developed practical Business Intelligence skills using Tableau and Power BI.
 
 I worked with real-world datasets covering:
 
@@ -16,7 +16,7 @@ I worked with real-world datasets covering:
 - Global health indicators  
 - Sales performance reporting (Power BI Labs)
 
-This week focused on transforming raw datasets into structured models, designing analytical dashboards, and presenting business-ready insights.
+This week focused on transforming raw datasets into structured models, building dashboards, and presenting stakeholder-ready insights.
 
 ---
 
@@ -26,283 +26,175 @@ This week focused on transforming raw datasets into structured models, designing
 
 Built a Tableau dashboard analysing percentage job change across major UK cities.
 
-### Key Insights Identified:
+### Key Insights:
 
 - **London (1.771%)** recorded the highest job growth.
-- **Birmingham (1.695%)** and **Nottingham-Derby (1.622%)** showed strong positive growth.
-- **Swansea (1.021%)** demonstrated moderate expansion.
+- **Birmingham (1.695%)** and **Nottingham-Derby (1.622%)** showed strong positive change.
 - **Leeds-Bradford (-0.435%)** experienced the largest decline.
-- **Aberdeen (-0.235%)** and **Manchester (-0.075%)** showed slight contraction.
+- Slight contraction observed in **Aberdeen** and **Manchester**.
 
-### Visualisations Created:
-
-- City-level % change bar chart
-- 2-digit category comparison chart
-- UK geographic map using generated latitude/longitude
-
-### Business Relevance:
-
-This analysis supports:
+### Business Application:
 
 - Regional workforce planning  
-- Economic growth identification  
-- Investment prioritisation  
-- Risk analysis for declining regions  
+- Economic investment prioritisation  
+- Identifying high-growth vs declining markets  
 
-### Skills Demonstrated:
+### 🔎 Visual Evidence
 
-- Data aggregation using `SUM(% Change)`
-- Geographic mapping
-- Comparative performance analysis
-- Insight-driven storytelling
+#### UK Job Growth – Percentage Change by City
+![UK Job Growth Bar Chart](images/day1-uk-job-growth-bar-chart.png)
 
----
-
-# 🗓️ Day 2 – Data Analysis Projects
+#### UK Geographic Job Change Map
+![UK Job Growth Map](images/day1-uk-job-growth-map.png)
 
 ---
 
-# 🎵 Spotify Streaming Analytics
+# 🗓️ Day 2 – Spotify Streaming Analytics
 
-## Genre Popularity Analysis
+## 📈 Genre Popularity Analysis
 
-Created a ranked bar chart analysing total popularity by genre.
-
-### Key Findings:
-
-- **Pop, Rap, and Rock** were the top-performing genres.
-- Opera, Movie, and Children’s Music ranked lowest.
-- Engagement is highly concentrated in mainstream genres.
-
----
-
-## Popularity vs Duration Correlation
-
-Built a scatter plot with trend line comparing track duration and popularity.
-
-### Insight:
-
-- Positive correlation between duration and popularity.
-- Moderate relationship — indicating additional influencing factors.
-- Demonstrated understanding that correlation ≠ causation.
-
----
-
-## Artist Performance Analysis
-
-Ranked artists by total popularity.
-
-High-performing artists included:
-
-- Drake  
-- Chris Brown  
-- Nobuo Uematsu  
-- Hans Zimmer  
-
-Supports:
-
-- Artist benchmarking  
-- Streaming strategy optimisation  
-- Content investment decisions  
-
----
-
-## Track-Level Popularity
-
-Analysed individual track performance.
-
-- “Home” ranked highest in the dataset.
-- Clear performance drop-off between top and mid-tier tracks.
-- Demonstrates typical streaming distribution inequality.
-
----
-
-# 🏥 Global Health Data Analysis
-
-Worked with a multi-variable global dataset (life expectancy, BMI, cancer rates, population growth).
-
----
-
-## 🌍 Global Life Expectancy Map
-
-Created a world map visualising average life expectancy by country.
-
-### Observations:
-
-- Higher life expectancy across Europe, North America, Australia.
-- Lower averages in parts of Africa.
-- Clear geographic inequality in health outcomes.
-
----
-
-## 📈 Life Expectancy Trend (1990–2008)
-
-Developed a time-based visual showing steady global improvement.
-
-### Insight:
-
-- Consistent upward trend over time.
-- Reflects improvements in healthcare access and living conditions.
-
----
-
-## ⚖️ BMI vs Life Expectancy Analysis
-
-Created a scatter plot with continent-level trend lines.
+Ranked genres by total popularity.
 
 ### Findings:
 
-- Positive relationship between BMI and life expectancy in developed regions.
-- Strong clustering within higher-income continents.
-- Suggests economic development influences health metrics.
+- **Pop, Rap, and Rock** dominated overall engagement.
+- Lower popularity observed in Opera, Movie, and Children’s categories.
+- Engagement highly concentrated in mainstream genres.
+
+### Visual:
+![Spotify Genre Popularity](images/day2-spotify-genre-popularity.png)
 
 ---
 
-## 🎗 Cancer Rate Analysis
+## 📊 Popularity vs Duration Correlation
 
-Ranked countries by total cancer rate.
+Analysed relationship between track duration and popularity using scatter plot with trend line.
 
-- China and United States showed highest totals (population size impact).
-- Supports national healthcare resource planning.
+### Insight:
 
----
+- Positive correlation identified.
+- Moderate strength relationship.
+- Indicates other variables influence streaming success.
 
-## 👥 Gender-Based Health Comparison
-
-Compared male vs female life expectancy.
-
-- Women consistently demonstrated higher life expectancy globally.
-- Confirms well-documented gender health trends.
+### Visual:
+![Spotify Correlation Analysis](images/day2-spotify-correlation-analysis.png)
 
 ---
 
-## 📊 Integrated Health Dashboard
+# 🏥 Day 2 – Global Health Data Analysis
 
-Designed a consolidated dashboard combining:
+Worked with a multi-variable dataset including life expectancy, BMI, cancer rates, and population growth.
 
-- Global health map
-- Cancer rate ranking
-- Population growth trend
-- BMI vs Life Expectancy correlation
+## 🌍 Integrated Global Health Dashboard
 
-Demonstrated ability to:
+Combined multiple views into a structured reporting dashboard.
 
-- Integrate multiple sheets into one reporting interface
-- Maintain layout clarity
-- Present multi-variable insight effectively
+### Observations:
+
+- Higher life expectancy in Europe and North America.
+- Lower averages in parts of Africa.
+- Cancer rates highest in China and the United States (population impact).
+- Positive BMI–life expectancy trend in developed regions.
+
+### Skills Demonstrated:
+
+- Geographic mapping  
+- Trend analysis  
+- Multi-sheet dashboard integration  
+- Comparative country ranking  
+
+### Visual:
+![Global Health Dashboard](images/day2-global-health-dashboard.png)
 
 ---
 
 # 🗓️ Day 3 – Power BI Data Preparation
 
----
+## 🔧 Lab 1 – Get Data & Transform
 
-## Lab 1 – Get Data in Power BI Desktop
-
-Connected to the Sales Analysis dataset and explored tables in Power Query.
+Imported Sales Analysis dataset and worked within Power Query.
 
 ### Activities Completed:
 
-- Imported multiple tables (DimEmployee, DimReseller, FactResellerSales, etc.)
-- Used column profiling tools (valid, error, empty value checks)
-- Reviewed distinct and unique value distributions
-- Identified and filtered data quality issues
-- Monitored Applied Steps (Source, Navigation, Filtered Rows)
+- Reviewed multiple tables (FactResellerSales, DimEmployee, etc.)
+- Used column profiling tools (valid, error, empty checks)
+- Applied filters and reviewed Applied Steps
+- Ensured clean, structured data before load
 
-### Skills Demonstrated:
+### Technical Skills:
 
-- Data profiling
-- Data quality assessment
-- Query transformation awareness
-- Understanding ETL fundamentals
+- Data profiling  
+- ETL awareness  
+- Transformation logic  
+- Query validation  
+
+### Visual:
+![Power Query Transformation](images/day3-powerquery-data-transformation.png)
 
 ---
 
-## Lab 2 – Load Transformed Data
+## 📦 Lab 2 – Load Transformed Data
 
-Loaded transformed queries into the Power BI data model.
+Loaded cleaned queries into the data model.
 
-### Activities Completed:
+- Applied transformations
+- Reviewed relationships
+- Prepared structured model for reporting
+- Built initial visuals
 
-- Applied query changes
-- Loaded tables into the data model
-- Reviewed model relationships
-- Built initial visuals from structured data
-
-### Technical Understanding:
-
-- Query Editor vs Data Model separation
-- Applying transformations before model load
-- Clean data → reliable reporting
+Demonstrated understanding of separation between Query Editor and Data Model.
 
 ---
 
 # 🗓️ Day 4 – Power BI Report Design
 
----
+## 📊 Multi-Page Report Development
 
-## Lab 8 – Design a Report
+Designed an interactive Power BI report using the transformed dataset.
 
-Designed a multi-page Power BI report including:
-
-### Page 1 – Overview
+### Page 1 – Sales Overview
 
 - KPI Cards (Total Sales, Average Profit)
-- Bar & column charts
-- Regional and category performance visuals
-- Visual formatting and layout adjustments
-- Data labels and colour configuration
+- Regional and category breakdowns
+- Visual formatting and layout optimisation
+
+### Visual:
+![Power BI Overview Report](images/day4-powerbi-overview-report.png)
 
 ---
 
-### Page 2 – Profit Analysis
+### Page 2 – Profit & Performance Analysis
 
-- Profit-focused breakdown
-- Filters and slicers (Category, Product, Subcategory, Color)
-- Interactive filtering capabilities
+- Profit breakdown by product/category
+- Interactive slicers (Category, Subcategory, Colour)
+- Monthly sales trend analysis
 
----
-
-### Page 3 – Performance View
-
-- Sales by month trend
-- Comparative sales performance
-- Interactive page navigation
+### Visual:
+![Power BI Profit Analysis](images/day4-powerbi-profit-analysis.png)
 
 ---
 
-## Publishing & Interaction
+# 🛠 Technical Skills Developed
 
-- Saved Power BI Desktop file
-- Reviewed publishing process to Power BI Service
-- Tested filtering and cross-highlighting interactions
-
----
-
-# 🛠 Technical Skills Developed This Week
-
-- Tableau dashboard development
-- Geographic mapping
-- Correlation analysis
-- Trend evaluation
-- Data modelling concepts
-- Power Query transformations
-- Applied Steps monitoring
-- KPI reporting
-- Interactive report design
-- Multi-page BI dashboard creation
+- Tableau dashboard creation  
+- Geographic mapping  
+- Correlation analysis  
+- Trend evaluation  
+- Power Query transformations  
+- Data modelling concepts  
+- KPI reporting  
+- Interactive BI report design  
+- Multi-page dashboard creation  
 
 ---
 
-# 💼 Professional Growth
+# 💼 Professional Development
 
-This week significantly strengthened my ability to:
+This week strengthened my ability to:
 
-- Transform raw datasets into structured models  
-- Identify meaningful patterns and trends  
-- Build dashboards that support business decisions  
-- Present data clearly for both commercial and public-sector contexts  
+- Transform raw data into structured, analysis-ready models  
+- Extract meaningful insights from diverse datasets  
+- Design dashboards that support business and public-sector decision-making  
+- Communicate analytical findings clearly and professionally  
 
-I am developing practical Business Intelligence capability with a strong foundation in data preparation, analysis, and reporting.
-
----
+I am building strong foundational capability in Business Intelligence with practical experience in both data preparation and reporting.
