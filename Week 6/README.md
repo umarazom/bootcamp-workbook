@@ -1,112 +1,143 @@
-# 📊 Week 6 – Advanced Python Data Analysis
+# 📊 Week 6 – Global Economic Data Analysis (Python)
 
-**Technologies Used:**  
-Python | Pandas | NumPy | Matplotlib | Seaborn  
+## 🔎 Project Overview
 
-**Focus Areas:**  
-Exploratory Data Analysis (EDA) | Statistical Analysis | Aggregation | Visualisation | Insight Extraction  
+This project explores global GDP per capita data using estimates from the IMF, United Nations, and World Bank.
 
----
+The objective was to:
 
-# 🧮 Day 2 – Python Fundamentals
-
-Implemented control flow logic using loops and conditionals (FizzBuzz exercise).
-
-## Skills Demonstrated
-- For loops
-- Conditional statements
-- Modulus operations
-- Logical reasoning
+- Clean and prepare real-world economic data
+- Perform exploratory data analysis (EDA)
+- Compare international reporting sources
+- Identify global economic patterns
+- Extract business-level insights from statistical outputs
 
 ---
 
-# 📁 Day 3 – Data Manipulation with Pandas
+## 🛠 Tools & Technologies
 
-Performed structured data operations including:
-
-- Loading CSV datasets
-- Inspecting structure and data types
-- Handling missing values
-- Filtering and grouping
-- Aggregation using `groupby()`
-- Sorting and exporting results
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 ---
 
-# 🌍 Day 4 – Global GDP Per Capita Analysis
+# 📌 Project Structure
 
-Conducted full exploratory data analysis on GDP (Nominal) Per Capita dataset using IMF, UN, and World Bank estimates.
+### 1️⃣ Data Preparation
+- Imported CSV dataset
+- Checked data types and structure
+- Identified missing and zero values
+- Cleaned inconsistencies
+- Standardised numeric columns
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Descriptive statistics (`describe()`)
+- Distribution analysis (histograms)
+- Region-based grouping (`groupby`)
+- Correlation analysis
+- Visualisation for insight communication
 
 ---
 
-## 📊 1. GDP Distribution Analysis
+# 📊 Key Analysis & Visualisations
 
-Visualised the distribution of GDP per capita estimates to understand spread and skewness.
+---
+
+## 📈 GDP Distribution Analysis
+
+Understanding the spread and skewness of GDP per capita values.
 
 ![GDP Distribution Histogram](images/week6-gdp-distribution-histogram.png)
 
-### Key Insight
-GDP per capita values are heavily right-skewed.  
-A small number of countries have extremely high GDP per capita compared to the global majority.
+### Insight
+- GDP per capita is strongly right-skewed.
+- A small number of high-income countries significantly increase the global average.
+- Most countries cluster in lower-to-mid income ranges.
+
+This highlights global economic imbalance.
 
 ---
 
-## 📈 2. Average GDP by UN Region
+## 🌍 Average GDP per Capita by UN Region
 
-Calculated the mean GDP per capita per UN region and visualised the results.
+Regional aggregation using `groupby()` and mean calculations.
 
 ![Average GDP by Region](images/week6-gdp-average-by-region.png)
 
-### Key Insight
-- Europe has the highest regional average GDP per capita.
-- Africa has the lowest average.
-- Significant economic disparity exists across global regions.
+### Insight
+- Europe shows the highest regional average GDP.
+- Africa shows the lowest average GDP.
+- Clear structural economic disparity exists between regions.
+
+This type of analysis is commonly used in economic benchmarking and policy comparison.
 
 ---
 
-## 🔎 3. Countries Below World Average (IMF Estimate)
+## 🔎 Countries Below the Global Average (IMF)
 
-Calculated the global IMF average and filtered countries below this threshold.
+Calculated the global IMF average and filtered countries below this benchmark.
 
 ![Countries Below World Average](images/week6-below-world-average.png)
 
-### Key Insight
-This analysis highlights countries performing below the global benchmark, identifying potential developing and emerging economies.
+### Insight
+- Identifies developing and emerging economies.
+- Demonstrates ability to create comparative baselines.
+- Shows analytical filtering beyond simple descriptive statistics.
+
+This reflects real-world business analysis thinking.
 
 ---
 
-## 📊 4. Correlation Analysis Between GDP Sources
+## 📊 Correlation Between IMF, UN & World Bank Estimates
 
-Computed and visualised correlation matrix between IMF, UN, and World Bank GDP estimates.
+Correlation matrix to evaluate consistency across reporting bodies.
 
 ![Correlation Heatmap](images/week6-correlation-heatmap.png)
 
-### Key Insight
-- IMF and World Bank estimates show extremely strong positive correlation (~0.99).
-- UN estimates are also highly correlated.
-- Confirms consistency across international economic reporting sources.
+### Insight
+- IMF and World Bank estimates show extremely strong correlation (~0.99).
+- UN estimates are also highly aligned.
+- Confirms reliability and consistency across major economic institutions.
+
+Demonstrates understanding of statistical relationships.
 
 ---
 
-# 🧠 Technical Skills Strengthened
+# 🧠 Analytical Skills Demonstrated
 
 - Data cleaning and preprocessing
 - Handling missing and zero values
-- Descriptive statistics
-- Correlation analysis
 - Distribution analysis
-- Business insight interpretation
-- Professional data visualisation
-- Structured exploratory data analysis
+- Statistical aggregation
+- Correlation analysis
+- Business interpretation of numeric outputs
+- Visual storytelling with data
+- Structured exploratory workflow
 
 ---
 
-# 🎯 Portfolio Value
+# 💼 Recruiter Relevance
 
 This project demonstrates:
 
-✔ Independent exploratory data analysis  
-✔ Statistical reasoning and interpretation  
-✔ Ability to derive insights from economic datasets  
-✔ Clean and professional visual presentation  
-✔ Real-world analytical thinking  
+✔ Independent analysis of real-world global datasets  
+✔ Strong command of Pandas operations (`groupby`, filtering, aggregation)  
+✔ Ability to translate statistics into business insight  
+✔ Professional-quality visualisations  
+✔ Structured and logical analytical workflow  
+
+This reflects practical junior data analyst capability rather than academic-only exercises.
+
+---
+
+# 🚀 Next Improvements (Future Iteration)
+
+- Add regression analysis
+- Build interactive dashboard (Streamlit / Power BI)
+- Compare GDP trends over time
+- Integrate additional macroeconomic indicators
+
+---
