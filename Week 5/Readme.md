@@ -1,4 +1,4 @@
-# ☁️ Week 5 Portfolio – Azure Data Fundamentals  
+# ☁️ Week 5 Portfolio – Azure Data Fundamentals (DP-900)
 **Data Technician Bootcamp (Level 3)**  
 **Umar Azom**
 
@@ -9,197 +9,105 @@ Cloud Computing | Azure Services | Data Governance | Relational & NoSQL Database
 
 ---
 
-# 📖 Overview
-
-Week 5 focused on Microsoft Azure fundamentals and enterprise cloud data architecture.
-
-This week covered:
-
-- Cloud service models (IaaS, PaaS, SaaS)
-- Cloud deployment models
-- UK data protection legislation
-- Relational vs Non-relational databases
-- Azure SQL Database
-- Azure Cosmos DB
-- Power BI analytics
-- Business cloud architecture proposal
+## ✅ Professional Summary
+This week focused on understanding how modern organisations store, secure, and analyse data in the cloud using Microsoft Azure. I explored core Azure data services, compared relational vs non-relational models, and built analytics outputs using Power BI.
 
 ---
 
-# 🌍 Day 1 – Cloud Fundamentals
+# Day 1 – Cloud Fundamentals
+Covered core cloud concepts and why organisations move workloads to the cloud:
 
-Cloud computing enables organisations to:
+- Scalability and elasticity
+- Cost optimisation (pay-as-you-go)
+- High availability and disaster recovery
+- Security and compliance at scale
 
-- Scale infrastructure instantly
-- Reduce hardware and maintenance costs
-- Enable secure remote collaboration
-- Improve disaster recovery capability
-- Access analytics and AI services without on-prem infrastructure
-
-## Cloud Service Models
-
-### IaaS
-Virtual machines, storage and networking infrastructure.
-
-### PaaS
-Managed development platforms for building and deploying applications.
-
-### SaaS
-Fully managed applications delivered via browser (e.g. Microsoft 365, Salesforce).
+### Cloud Service Models
+- **IaaS** – Infrastructure (VMs, networks, storage)
+- **PaaS** – Managed platforms (databases, app services)
+- **SaaS** – Finished software (Microsoft 365)
 
 ---
 
-# ⚖️ Day 2 – Data Protection & UK Law
+# Day 2 – Data Protection & UK Law
+Reviewed key UK legislation and how it affects data handling in organisations:
 
-## Legislation Covered
+- Data Protection Act 2018
+- UK GDPR
+- Freedom of Information Act
+- Computer Misuse Act
+- Copyright, Designs and Patents Act
 
-- Computer Misuse Act 1990  
-- Police and Justice Act 2006  
-- Data Protection Act 2018  
-- UK GDPR  
-- Copyright, Designs and Patents Act 1988  
-- Consumer Rights Act 2015  
-
-## Key Legal Principles
-
-- Lawful processing of data  
-- Data minimisation  
-- Accuracy and retention control  
-- Protection against unauthorised access  
-- Criminalisation of hacking and malware  
+**Key takeaways**
+- Lawful processing and minimisation
+- Accountability and auditability
+- Risks of non-compliance and breaches
 
 ---
 
-# 🗄 Day 3 – Azure Practical Labs
+# Day 3 – Azure Labs (Hands-On)
 
----
+## ✅ Task 1 – Relational Data with Azure SQL Database
+Used Azure SQL Database (AdventureWorks) to query structured relational data and practice JOIN logic.
 
-## 🔷 Task 1 – Relational Data in Azure SQL
-
-Used Azure SQL Database (AdventureWorks dataset).
-
-Executed structured SQL queries including JOIN operations.
-
-### Example Query
-
-```sql
-SELECT 
-    p.ProductID,
-    p.Name AS ProductName,
-    c.Name AS Category,
-    p.ListPrice
-FROM SalesLT.Product AS p
-INNER JOIN SalesLT.ProductCategory AS c
-ON p.ProductCategoryID = c.ProductCategoryID;
-```
+**Skills demonstrated**
+- Relational schema understanding
+- JOIN operations and filtering
+- Querying in a cloud SQL environment
 
 ### Lab Evidence
-
-![Azure SQL Relational Query](./images/week5-day3-relational-azure-sql.png)
-
-**Skills Demonstrated:**
-- Relational schema understanding  
-- INNER JOIN logic  
-- Structured cloud querying  
+![Azure SQL Relational Query](/Week%205/images/week5-day3-relational-azure-sql.png)
 
 ---
 
-## 🔷 Task 2 – Non-Relational Data (Azure Cosmos DB)
+## ✅ Task 2 – Non-Relational Data with Azure Cosmos DB (NoSQL)
+Explored NoSQL document querying in Cosmos DB and worked with JSON-style records.
 
-Worked with Azure Cosmos DB using a NoSQL document model.
-
-### Example Query
-
-```sql
-SELECT *
-FROM c
-WHERE CONTAINS(c.name, "Helmet")
-```
+**Skills demonstrated**
+- Document database structure
+- JSON querying concepts
+- Schema flexibility vs relational constraints
 
 ### Lab Evidence
-
-![Cosmos DB NoSQL Query](./images/week5-day3-cosmosdb-nosql-query.png)
-
-**Skills Demonstrated:**
-- Document database structure  
-- JSON data handling  
-- Schema flexibility  
+![Cosmos DB NoSQL Query](/Week%205/images/week5-day3-cosmosdb-nosql-query.png)
 
 ---
 
-## 🔷 Task 3 – Data Analytics with Power BI
+## ✅ Task 3 – Data Analytics in Power BI
+Built interactive visuals and explored relationships to produce insights.
 
-Built interactive dashboards using Power BI.
+**Created**
+- Revenue by category chart
+- Category distribution visual
+- Data relationships / model exploration
 
-Created:
-- Revenue by Category chart  
-- Category distribution visual  
-- Data relationships  
+**Skills demonstrated**
+- Data modelling basics
+- Business intelligence reporting
+- Interactive dashboard building
 
 ### Lab Evidence
-
-![Power BI Dashboard](./images/week5-day3-powerbi-analytics-dashboard.png)
-
-**Skills Demonstrated:**
-- Data modelling  
-- Business intelligence principles  
-- Visual analytics  
-- Interactive reporting  
+![Power BI Analytics Dashboard](/Week%205/images/week5-day3-powerbi-analytics-dashboard.png)
 
 ---
 
-# 📝 Day 4 – DP-900 Practice Exam
-
-**Score: 46/50 (92%)**
-
-Demonstrated strong understanding of:
-
-- Azure data services  
-- Relational vs non-relational workloads  
-- Analytics solutions  
-- Data governance  
-- Cloud security fundamentals  
+# Day 4 – DP-900 Preparation
+Consolidated Azure data fundamentals and reinforced understanding of:
+- Relational vs non-relational workloads
+- Analytics vs transactional use cases
+- Cloud governance and security principles
 
 ---
 
-# 🐾 Paws & Whiskers – Azure Modernisation Proposal
-
-Designed a secure and scalable Azure data solution for a growing UK pet shop transitioning from spreadsheets to cloud infrastructure.
-
-## Recommended Architecture
-
-- Azure SQL Database (structured data)  
-- Azure Blob Storage (raw data ingestion)  
-- Azure Data Factory (ETL automation)  
-- Azure Synapse Analytics (warehouse analytics)  
-- Power BI (visual dashboards)  
-- Azure AD & Encryption (security & compliance)  
+# 🛠 Skills Demonstrated (Week 5)
+- Azure SQL Database (Relational)
+- Azure Cosmos DB (NoSQL)
+- Cloud data fundamentals (DP-900)
+- Querying + filtering + JOIN logic
+- Power BI reporting and dashboards
+- UK data governance and compliance awareness
 
 ---
 
-# 🛠 Skills Demonstrated
-
-✔ Azure SQL Database  
-✔ Azure Cosmos DB  
-✔ Power BI Reporting  
-✔ Cloud Architecture Planning  
-✔ Data Governance Awareness  
-✔ UK Data Law Knowledge  
-✔ Relational vs NoSQL Comparison  
-✔ Enterprise Cloud Design  
-
----
-
-# 🎯 Week 5 Summary
-
-Week 5 strengthened both theoretical and practical cloud data knowledge.
-
-I demonstrated the ability to:
-
-- Explain cloud service and deployment models  
-- Apply UK data legislation to business scenarios  
-- Work with relational and NoSQL databases  
-- Build analytical dashboards  
-- Design scalable Azure solutions  
-
-This week marked a progression from database fundamentals to enterprise-level cloud data strategy.
+## 🎯 Week 5 Outcome
+By the end of Week 5, I was able to explain Azure data fundamentals clearly, compare relational vs NoSQL approaches, run queries in cloud services, and produce a Power BI analytics output suitable for business reporting.
