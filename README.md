@@ -17,8 +17,7 @@ This repository documents my progression through a Level 3 Data Technician Bootc
 
 ## 🖥 Portfolio Dashboard
 
-![Portfolio Dashboard](assets/portfolio-dashboard.png)
-
+![Portfolio Dashboard](./portfolio-dashboard-preview.png.png)
 ---
 
 ## 📁 Weekly Projects
