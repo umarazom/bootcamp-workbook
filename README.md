@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-Intermediate-blue)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-green)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboarding-yellow)
-![Azure](https://img.shields.io/badge/Azure-DP900-blue)
+![Azure](https://img.shields.io/badge/Azure-DP900-teal)
 ![Tableau](https://img.shields.io/badge/Tableau-Analysis-E97627?logo=tableau&logoColor=white)
 ---
 
