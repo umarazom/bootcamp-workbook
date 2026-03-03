@@ -30,7 +30,7 @@ This repository documents my progression through a Level 3 Data Technician Bootc
 ### 📊 Week 1 – Excel Foundations
 Pivot tables, advanced formulas, structured reporting and data analysis.
 
-### 📈 Week 2 – Power BI Dashboards
+### 📈 Week 2 – Tableau and Power BI Dashboards
 Interactive dashboards, KPI tracking, business storytelling.
 
 ### 🗄 Week 3 – SQL & Relational Databases
