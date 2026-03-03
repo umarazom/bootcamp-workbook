@@ -9,105 +9,64 @@ Cloud Computing | Azure Services | Data Governance | Relational & NoSQL Database
 
 ---
 
-## ✅ Professional Summary
-This week focused on understanding how modern organisations store, secure, and analyse data in the cloud using Microsoft Azure. I explored core Azure data services, compared relational vs non-relational models, and built analytics outputs using Power BI.
+# 🗄 Day 3 – Azure Practical Labs
 
 ---
 
-# Day 1 – Cloud Fundamentals
-Covered core cloud concepts and why organisations move workloads to the cloud:
+## 🔷 Task 1 – Relational Data (Azure SQL Database)
 
-- Scalability and elasticity
-- Cost optimisation (pay-as-you-go)
-- High availability and disaster recovery
-- Security and compliance at scale
-
-### Cloud Service Models
-- **IaaS** – Infrastructure (VMs, networks, storage)
-- **PaaS** – Managed platforms (databases, app services)
-- **SaaS** – Finished software (Microsoft 365)
-
----
-
-# Day 2 – Data Protection & UK Law
-Reviewed key UK legislation and how it affects data handling in organisations:
-
-- Data Protection Act 2018
-- UK GDPR
-- Freedom of Information Act
-- Computer Misuse Act
-- Copyright, Designs and Patents Act
-
-**Key takeaways**
-- Lawful processing and minimisation
-- Accountability and auditability
-- Risks of non-compliance and breaches
-
----
-
-# Day 3 – Azure Labs (Hands-On)
-
-## ✅ Task 1 – Relational Data with Azure SQL Database
-Used Azure SQL Database (AdventureWorks) to query structured relational data and practice JOIN logic.
-
-**Skills demonstrated**
-- Relational schema understanding
-- JOIN operations and filtering
-- Querying in a cloud SQL environment
+Used Azure SQL Database with the AdventureWorks dataset to query structured relational data and perform JOIN operations.
 
 ### Lab Evidence
-![Azure SQL Relational Query](/Week%205/images/week5-day3-relational-azure-sql.png)
+
+![Azure SQL Relational Query](images/week5-day3-relational-azure-sql.png)
+
+**Skills Demonstrated:**
+- Relational schema understanding  
+- INNER JOIN operations  
+- Cloud-hosted SQL querying  
 
 ---
 
-## ✅ Task 2 – Non-Relational Data with Azure Cosmos DB (NoSQL)
-Explored NoSQL document querying in Cosmos DB and worked with JSON-style records.
+## 🔷 Task 2 – Non-Relational Data (Azure Cosmos DB)
 
-**Skills demonstrated**
-- Document database structure
-- JSON querying concepts
-- Schema flexibility vs relational constraints
+Worked with Azure Cosmos DB using a document-based NoSQL model.
 
 ### Lab Evidence
-![Cosmos DB NoSQL Query](/Week%205/images/week5-day3-cosmosdb-nosql-query.png)
+
+![Cosmos DB NoSQL Query](images/week5-day3-cosmosdb-nosql-query.png)
+
+**Skills Demonstrated:**
+- Document database structure  
+- JSON querying  
+- Schema flexibility  
 
 ---
 
-## ✅ Task 3 – Data Analytics in Power BI
-Built interactive visuals and explored relationships to produce insights.
+## 🔷 Task 3 – Data Analytics with Power BI
 
-**Created**
-- Revenue by category chart
-- Category distribution visual
-- Data relationships / model exploration
-
-**Skills demonstrated**
-- Data modelling basics
-- Business intelligence reporting
-- Interactive dashboard building
+Built interactive dashboards and explored data relationships.
 
 ### Lab Evidence
-![Power BI Analytics Dashboard](/Week%205/images/week5-day3-powerbi-analytics-dashboard.png)
+
+![Power BI Analytics Dashboard](images/week5-day3-powerbi-analytics-dashboard.png)
+
+**Skills Demonstrated:**
+- Data modelling  
+- Business intelligence reporting  
+- Visual analytics  
 
 ---
 
-# Day 4 – DP-900 Preparation
-Consolidated Azure data fundamentals and reinforced understanding of:
-- Relational vs non-relational workloads
-- Analytics vs transactional use cases
-- Cloud governance and security principles
+# 🎯 Week 5 Summary
 
----
+This week strengthened my understanding of Azure data services, cloud database models, and business analytics reporting.  
 
-# 🛠 Skills Demonstrated (Week 5)
-- Azure SQL Database (Relational)
-- Azure Cosmos DB (NoSQL)
-- Cloud data fundamentals (DP-900)
-- Querying + filtering + JOIN logic
-- Power BI reporting and dashboards
-- UK data governance and compliance awareness
+I demonstrated practical skills in:
 
----
+- Relational SQL querying in Azure
+- NoSQL document databases (Cosmos DB)
+- Cloud-based data analytics with Power BI
+- Understanding of Azure data fundamentals (DP-900 level)
 
-## 🎯 Week 5 Outcome
-By the end of Week 5, I was able to explain Azure data fundamentals clearly, compare relational vs NoSQL approaches, run queries in cloud services, and produce a Power BI analytics output suitable for business reporting.
+Week 5 marked my transition from database fundamentals into enterprise-level cloud data architecture and analytics strategy.
