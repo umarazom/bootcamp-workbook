@@ -31,7 +31,7 @@ Worked with a relational dataset (AdventureWorks) and explored structured queryi
 - Used SELECT + filtering + JOIN logic to return meaningful fields
 
 ### Lab Evidence
-![Azure SQL Relational Query](images/week5-day3-relational-azure-sql.png)
+![Azure SQL Relational Query](images/week5-day3-relational-azure-sql.png.png)
 
 **Skills demonstrated**
 - Relational database concepts
@@ -48,7 +48,7 @@ Explored a document database model and queried JSON-style records using Cosmos D
 - Compared NoSQL flexibility vs relational constraints
 
 ### Lab Evidence
-![Cosmos DB NoSQL Query](images/week5-day3-cosmosdb-nosql-query.png)
+![Cosmos DB NoSQL Query](images/week5-day3-cosmosdb-nosql-query.png.png)
 
 **Skills demonstrated**
 - NoSQL document model understanding
@@ -65,7 +65,7 @@ Built a simple interactive report to communicate dataset insights visually.
 - Validated model fields and ensured visuals were readable
 
 ### Lab Evidence
-![Power BI Analytics Dashboard](images/week5-day3-powerbi-analytics-dashboard.png)
+![Power BI Analytics Dashboard](images/week5-day3-powerbi-analytics-dashboard.png.png)
 
 **Skills demonstrated**
 - Translating data into visuals
