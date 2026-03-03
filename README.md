@@ -4,7 +4,7 @@
 ![SQL](https://img.shields.io/badge/SQL-Advanced-green)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboarding-yellow)
 ![Azure](https://img.shields.io/badge/Azure-DP900-blue)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboarding-E97627?logo=tableau&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Analysis-E97627?logo=tableau&logoColor=white)
 ---
 
 ## 🚀 Portfolio Overview
