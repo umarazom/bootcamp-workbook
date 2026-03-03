@@ -13,7 +13,7 @@ Cloud Computing | Azure Services | Data Governance | Relational & NoSQL Database
 
 Week 5 focused on Microsoft Azure fundamentals and enterprise cloud data architecture.
 
-The week covered:
+This week covered:
 
 - Cloud service models (IaaS, PaaS, SaaS)
 - Cloud deployment models
@@ -24,67 +24,28 @@ The week covered:
 - Power BI analytics
 - Business cloud architecture proposal
 
-This week bridged theory with practical Azure lab experience.
-
 ---
 
 # 🌍 Day 1 – Cloud Fundamentals
 
-## What Cloud Computing Provides
-
-Cloud computing allows organisations to:
+Cloud computing enables organisations to:
 
 - Scale infrastructure instantly
 - Reduce hardware and maintenance costs
 - Enable secure remote collaboration
 - Improve disaster recovery capability
-- Access AI and analytics services without owning servers
+- Access analytics and AI services without on-prem infrastructure
 
-## Business Benefits
+## Cloud Service Models
 
-- Reduced capital expenditure
-- Pay-as-you-go pricing model
-- High availability and redundancy
-- Global accessibility
-- Built-in compliance and security controls
+### IaaS
+Virtual machines, storage and networking infrastructure.
 
----
+### PaaS
+Managed development platforms for building and deploying applications.
 
-# 🏗 Cloud Service Models
-
-## IaaS (Infrastructure as a Service)
-
-Provides virtual machines, storage, and networking infrastructure.
-
-**Use cases:**
-- Hosting websites
-- Development environments
-- High-performance computing
-- Backup and disaster recovery
-
----
-
-## PaaS (Platform as a Service)
-
-Provides managed development platforms.
-
-**Use cases:**
-- API development
-- Application deployment
-- DevOps automation
-- IoT data processing
-
----
-
-## SaaS (Software as a Service)
-
-Fully managed applications delivered via web browser.
-
-**Examples:**
-- Microsoft 365
-- Salesforce
-- Slack
-- Zoom
+### SaaS
+Fully managed applications delivered via browser (e.g. Microsoft 365, Salesforce).
 
 ---
 
@@ -92,24 +53,20 @@ Fully managed applications delivered via web browser.
 
 ## Legislation Covered
 
-- Computer Misuse Act 1990
-- Police and Justice Act 2006
-- Data Protection Act 2018
-- UK GDPR
-- Copyright, Designs and Patents Act 1988
-- Consumer Rights Act 2015
+- Computer Misuse Act 1990  
+- Police and Justice Act 2006  
+- Data Protection Act 2018  
+- UK GDPR  
+- Copyright, Designs and Patents Act 1988  
+- Consumer Rights Act 2015  
 
-## Computer Misuse Act – Key Areas
+## Key Legal Principles
 
-1. Unauthorised access (hacking)
-2. Access with intent to commit further offences
-3. Impairing operation of a computer system
-
-## Police & Justice Act Enhancements
-
-- Increased sentencing powers
-- Criminalisation of hacking tool distribution
-- Expanded definition of system impairment (e.g. DDoS)
+- Lawful processing of data  
+- Data minimisation  
+- Accuracy and retention control  
+- Protection against unauthorised access  
+- Criminalisation of hacking and malware  
 
 ---
 
@@ -121,7 +78,7 @@ Fully managed applications delivered via web browser.
 
 Used Azure SQL Database (AdventureWorks dataset).
 
-Executed structured SQL queries including JOIN operations to retrieve related product and category data.
+Executed structured SQL queries including JOIN operations.
 
 ### Example Query
 
@@ -138,21 +95,18 @@ ON p.ProductCategoryID = c.ProductCategoryID;
 
 ### Lab Evidence
 
-![Azure SQL Relational Query](images/week5-day3-relational-azure-sql.png)
+![Azure SQL Relational Query](./images/week5-day3-relational-azure-sql.png)
 
 **Skills Demonstrated:**
-- Relational schema understanding
-- INNER JOIN logic
-- Structured query execution
-- Cloud-hosted database interaction
+- Relational schema understanding  
+- INNER JOIN logic  
+- Structured cloud querying  
 
 ---
 
 ## 🔷 Task 2 – Non-Relational Data (Azure Cosmos DB)
 
 Worked with Azure Cosmos DB using a NoSQL document model.
-
-Queried JSON documents using SQL-style syntax.
 
 ### Example Query
 
@@ -164,36 +118,33 @@ WHERE CONTAINS(c.name, "Helmet")
 
 ### Lab Evidence
 
-![Cosmos DB NoSQL Query](images/week5-day3-cosmosdb-nosql-query.png)
+![Cosmos DB NoSQL Query](./images/week5-day3-cosmosdb-nosql-query.png)
 
 **Skills Demonstrated:**
-- Document-based database structure
-- Schema flexibility
-- JSON data querying
-- NoSQL concepts
+- Document database structure  
+- JSON data handling  
+- Schema flexibility  
 
 ---
 
 ## 🔷 Task 3 – Data Analytics with Power BI
 
-Created interactive reports using Power BI connected to Azure data sources.
+Built interactive dashboards using Power BI.
 
-Built:
-
-- Revenue by Category visual
-- Category distribution pie chart
-- Data model relationships
-- Interactive filtering
+Created:
+- Revenue by Category chart  
+- Category distribution visual  
+- Data relationships  
 
 ### Lab Evidence
 
-![Power BI Dashboard](images/week5-day3-powerbi-analytics-dashboard.png)
+![Power BI Dashboard](./images/week5-day3-powerbi-analytics-dashboard.png)
 
 **Skills Demonstrated:**
-- Data modelling
-- Business intelligence principles
-- Visual analytics
-- Report interactivity
+- Data modelling  
+- Business intelligence principles  
+- Visual analytics  
+- Interactive reporting  
 
 ---
 
@@ -203,70 +154,39 @@ Built:
 
 Demonstrated strong understanding of:
 
-- Azure data services
-- Relational vs non-relational workloads
-- Analytics solutions
-- Data governance
-- Cloud security fundamentals
+- Azure data services  
+- Relational vs non-relational workloads  
+- Analytics solutions  
+- Data governance  
+- Cloud security fundamentals  
 
 ---
 
 # 🐾 Paws & Whiskers – Azure Modernisation Proposal
 
-## Objective
+Designed a secure and scalable Azure data solution for a growing UK pet shop transitioning from spreadsheets to cloud infrastructure.
 
-Design a secure, scalable Azure data solution for a growing UK pet shop transitioning from spreadsheets to cloud infrastructure.
+## Recommended Architecture
 
----
-
-## Compliance Requirements
-
-- UK GDPR
-- Data Protection Act 2018
-- PCI DSS (payment processing)
-- PECR (marketing communications)
-
-Implemented principles:
-
-- Data minimisation
-- Encryption at rest and in transit
-- Role-based access control
-- Data retention policies
-- Audit logging
-
----
-
-## Recommended Azure Architecture
-
-### Storage Layer
-- Azure SQL Database (structured operational data)
-- Azure Blob Storage (raw data ingestion)
-
-### Integration
-- Azure Data Factory (ETL automation)
-
-### Analytics
-- Azure Synapse Analytics
-- Power BI dashboards
-
-### Security
-- Azure AD authentication
-- Transparent Data Encryption
-- Private endpoints
-- Geo-redundant backups
+- Azure SQL Database (structured data)  
+- Azure Blob Storage (raw data ingestion)  
+- Azure Data Factory (ETL automation)  
+- Azure Synapse Analytics (warehouse analytics)  
+- Power BI (visual dashboards)  
+- Azure AD & Encryption (security & compliance)  
 
 ---
 
 # 🛠 Skills Demonstrated
 
-✔ Cloud architecture understanding  
 ✔ Azure SQL Database  
 ✔ Azure Cosmos DB  
-✔ Power BI reporting  
-✔ UK data law knowledge  
-✔ Relational vs NoSQL comparison  
-✔ Enterprise cloud planning  
-✔ Data governance awareness  
+✔ Power BI Reporting  
+✔ Cloud Architecture Planning  
+✔ Data Governance Awareness  
+✔ UK Data Law Knowledge  
+✔ Relational vs NoSQL Comparison  
+✔ Enterprise Cloud Design  
 
 ---
 
@@ -276,13 +196,10 @@ Week 5 strengthened both theoretical and practical cloud data knowledge.
 
 I demonstrated the ability to:
 
-- Explain cloud service and deployment models
-- Apply UK data legislation to business scenarios
-- Work with relational and NoSQL databases
-- Build analytical dashboards
-- Design scalable Azure solutions
-- Translate business requirements into technical architecture
+- Explain cloud service and deployment models  
+- Apply UK data legislation to business scenarios  
+- Work with relational and NoSQL databases  
+- Build analytical dashboards  
+- Design scalable Azure solutions  
 
-This week marked a transition from database fundamentals toward enterprise-level cloud data strategy.
-
----
+This week marked a progression from database fundamentals to enterprise-level cloud data strategy.
