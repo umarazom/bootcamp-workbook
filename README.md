@@ -60,7 +60,8 @@ Exploratory data analysis, correlation modelling, distribution analysis and data
 
 This portfolio reflects practical, hands-on experience aligned with:
 
-- Junior Data Analyst roles  
+- Junior Data Analyst roles
+- Junior Financial Analyst roles  
 - BI Analyst roles  
 - Data Technician roles  
 - Entry-Level Data Engineering roles  
